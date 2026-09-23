@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nailah Maghfirah | Professional Profile</title>
+    
+    <!-- Tailwind CSS (Framework) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome (Ikon) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts (Profesional & Clean) -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #F8FAFC; /* Slate 50 - Very soft cool white */
+            color: #334155; /* Slate 700 */
+        }
+        
+        .bg-soft-blue {
+            background: linear-gradient(135deg, #E0F2FE 0%, #EFF6FF 100%); /* Sky 100 to Blue 50 */
+        }
+
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px -5px rgba(14, 165, 233, 0.15); /* Soft sky blue shadow */
+            border-color: #BAE6FD; /* Sky 200 */
+        }
+
+        /* Desain Tempat Foto/Logo jika gambar belum ada */
+        .image-placeholder {
+            background-color: #F1F5F9;
+            border: 2px dashed #CBD5E1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #94A3B8;
+            font-size: 0.85rem;
+            font-weight: 500;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        /* Agar gambar yang dimasukkan nanti pas ukurannya */
+        .image-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-sky-200 selection:text-sky-900">
+
+    <!-- HERO SECTION (Header & Foto Profil) -->
+    <header class="bg-soft-blue pt-20 pb-16 px-6 relative border-b border-sky-100">
+        <div class="max-w-4xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+            
+            <!-- Teks Info -->
+            <div class="text-center md:text-left flex-1">
+                <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-2 tracking-tight">
+                    Nailah Maghfirah
+                </h1>
+                <p class="text-sky-700 font-semibold text-lg md:text-xl tracking-wide uppercase mb-6">
+                    Administrasi | SDM | Keuangan
+                </p>
+                
+                <div class="flex flex-wrap justify-center md:justify-start gap-3 text-sm font-medium text-slate-600">
+                    <a href="tel:087881022892" class="flex items-center gap-2 px-4 py-2 rounded-full bg-white/60 border border-sky-200 hover:bg-white hover:border-sky-400 hover:text-sky-700 transition">
+                        <i class="fas fa-phone text-sky-500"></i> 087881022892
+                    </a>
+                    <a href="mailto:nailahmaghfirah6@gmail.com" class="flex items-center gap-2 px-4 py-2 rounded-full bg-white/60 border border-sky-200 hover:bg-white hover:border-sky-400 hover:text-sky-700 transition">
+                        <i class="fas fa-envelope text-sky-500"></i> nailahmaghfirah6@gmail.com
+                    </a>
+                    <span class="flex items-center gap-2 px-4 py-2 rounded-full bg-white/60 border border-sky-200">
+                        <i class="fas fa-map-marker-alt text-sky-500"></i> Kota Bambu Utara, Jakarta
+                    </span>
+                    <a href="https://www.linkedin.com/in/nailah-maghfirah-aa1b14266/" target="_blank" class="flex items-center gap-2 px-4 py-2 rounded-full bg-sky-600 text-white hover:bg-sky-700 hover:shadow-lg transition">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tempat Foto Profil -->
+            <div class="w-48 h-48 md:w-56 md:h-56 rounded-full image-placeholder border-4 border-white shadow-xl flex-shrink-0 bg-white">
+                <span>Foto Profil<br>(4x4)</span>
+                <!-- CARA MENGGANTI FOTO PROFIL: -->
+                <!-- Hapus tanda komentar di bawah ini dan ganti 'nama_file_foto.jpg' dengan link foto Anda -->
+                <!-- <img src="nama_file_foto.jpg" alt="Foto Profil Nailah"> -->
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12 space-y-8">
+        
+        <!-- PROFIL SINGKAT -->
+        <section class="bg-white rounded-2xl p-8 border border-slate-100 card-hover shadow-sm">
+            <h2 class="text-xl font-bold text-slate-800 mb-4 flex items-center gap-3 border-b border-sky-50 pb-3">
+                <div class="w-8 h-8 rounded-full bg-sky-100 flex items-center justify-center text-sky-600">
+                    <i class="fas fa-user"></i>
+                </div>
+                Profil Singkat
+            </h2>
+            <p class="text-slate-600 leading-relaxed text-justify">
+                Lulusan baru S1 Manajemen Universitas Cokroaminoto Yogyakarta dengan IPK 3.94. Memiliki pengalaman magang di salah satu perusahaan BUMN dan lembaga independen serta aktif dalam organisasi intra maupun ekstra yang mengasah keterampilan administrasi dan public relation. Memiliki minat karir dalam bidang administrasi/perkantoran, SDM, dan keuangan serta terbuka untuk kesempatan lain. Saya siap menghadapi tantangan baru dengan semangat belajar yang tinggi dan dedikasi penuh.
+            </p>
+        </section>
+
+        <!-- PENDIDIKAN -->
+        <section class="bg-white rounded-2xl p-8 border border-slate-100 card-hover shadow-sm">
+            <h2 class="text-xl font-bold text-slate-800 mb-6 flex items-center gap-3 border-b border-sky-50 pb-3">
+                <div class="w-8 h-8 rounded-full bg-sky-100 flex items-center justify-center text-sky-600">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                Pendidikan
+            </h2>
+            
+            <div class="flex flex-col sm:flex-row gap-5 items-start">
+                <!-- Tempat Logo Universitas -->
+                <div class="w-20 h-20 rounded-xl image-placeholder flex-shrink-0 bg-white">
+                    <span>Logo<br>Univ</span>
+                    <!-- <img src="logo_univ.png" alt="Logo Universitas Cokroaminoto Yogyakarta"> -->
+                </div>
+                
+                <div class="flex-1">
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-1">
+                        <h3 class="text-lg font-bold text-slate-800">Universitas Cokroaminoto Yogyakarta</h3>
+                        <span class="text-sm font-semibold text-sky-600 bg-sky-50 px-3 py-1 rounded-full mt-2 sm:mt-0 w-fit">2021 - 2025</span>
+                    </div>
+                    <p class="text-slate-600 font-medium mb-3">Sarjana Manajemen • <span class="text-sky-700 font-bold">IPK: 3.94 / 4.00</span></p>
+                    
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                        <h4 class="text-xs font-bold text-slate-400 mb-2 uppercase tracking-wider">Mata Kuliah Relevan:</h4>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Pengantar Manajemen, Manajemen Pemasaran, Manajemen Sumber Daya Manusia, Manajemen Keuangan, Manajemen Operasional, Perilaku Organisasi, Komunikasi Bisnis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PENGALAMAN MAGANG -->
+        <section class="bg-white rounded-2xl p-8 border border-slate-100 card-hover shadow-sm">
+            <h2 class="text-xl font-bold text-slate-800 mb-6 flex items-center gap-3 border-b border-sky-50 pb-3">
+                <div class="w-8 h-8 rounded-full bg-sky-100 flex items-center justify-center text-sky-600">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                Pengalaman Magang
+            </h2>
+            
+            <div class="space-y-8">
+                <!-- Pengalaman 1 -->
+                <div class="flex flex-col sm:flex-row gap-5 items-start">
+                    <!-- Tempat Logo Magang 1 -->
+                    <div class="w-16 h-16 rounded-xl image-placeholder flex-shrink-0 bg-white">
+                        <span class="text-xs">Logo<br>Komnas HAM</span>
+                        <!-- <img src="logo_maganghub.png" alt="Logo Maganghub Komnas HAM"> -->
+                    </div>
+                    
+                    <div class="flex-1">
+                        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-1">
+                            <h3 class="text-lg font-bold text-slate-800">Maganghub Kemenaker Komnas HAM</h3>
+                            <span class="text-sm font-semibold text-slate-500 mt-1 sm:mt-0">Nov 2025 - Mei 2026</span>
+                        </div>
+                        <p class="text-sky-600 font-semibold text-sm mb-3">Pengelola Kearsipan</p>
+                        <ul class="list-none space-y-2 text-slate-600 text-sm">
+                            <li class="flex items-start gap-2"><i class="fas fa-check-circle text-sky-400 mt-1"></i> Melakukan penginputan arsip inaktif ke dalam database.</li>
+                            <li class="flex items-start gap-2"><i class="fas fa-check-circle text-sky-400 mt-1"></i> Melakukan penginputan arsip masuk, surat kembali dan surat keluar kantor.</li>
+                            <li class="flex items-start gap-2"><i class="fas fa-check-circle text-sky-400 mt-1"></i> Mengikuti rapat dan membuat notulensi terkait rapat yang diikuti.</li>
+                            <li class="flex items-start gap-2"><i class="fas fa-check-circle text-sky-400 mt-1"></i> Membuat SPJ keuangan kegiatan dan menginputnya ke dalam database.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Pembatas -->
+                <hr class="border-slate-100">
+
+                <!-- Pengalaman 2 -->
+                <div class="flex flex-col sm:flex-row gap-5 items-start">
+                    <!-- Tempat Logo Magang 2 -->
+                    <div class="w-16 h-16 rounded-xl image-placeholder flex-shrink-0 bg-white">
+                        <span class="text-xs">Logo<br>PT Garam</span>
+                        <!-- <img src="logo_ptgaram.png" alt="Logo PT Garam"> -->
+                    </div>
+                    
+                    <div class="flex-1">
+                        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-1">
+                            <h3 class="text-lg font-bold text-slate-800">PT Garam</h3>
+                            <span class="text-sm font-semibold text-slate-500 mt-1 sm:mt-0">Agu 2024 - Okt 2024</span>
+                        </div>
+                        <p class="text-sky-600 font-semibold text-sm mb-3">Human Capital & General Affair</p>
+                        <ul class="list-none space-y-2 text-slate-600 text-sm">
+                            <li class="flex items-start gap-2"><i class="fas fa-check-circle text-sky-400 mt-1"></i> Melakukan pengelolaan dan penataan arsip karyawan.</li>
+                            <li class="flex items-start gap-2"><i class="fas fa-check-circle text-sky-400 mt-1"></i> Mencari vendor pelatihan dan sertifikasi.</li>
+                            <li class="flex items-start gap-2"><i class="fas fa-check-circle text-sky-400 mt-1"></i> Membuat jadwal pelatihan untuk peningkatan skill karyawan.</li>
+                            <li class="flex items-start gap-2"><i class="fas fa-check-circle text-sky-400 mt-1"></i> Membuat laporan pelatihan yang telah dilakukan sesuai format perusahaan.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PENGALAMAN ORGANISASI -->
+        <section class="bg-white rounded-2xl p-8 border border-slate-100 card-hover shadow-sm">
+            <h2 class="text-xl font-bold text-slate-800 mb-6 flex items-center gap-3 border-b border-sky-50 pb-3">
+                <div class="w-8 h-8 rounded-full bg-sky-100 flex items-center justify-center text-sky-600">
+                    <i class="fas fa-users"></i>
+                </div>
+                Pengalaman Organisasi
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Org 1 -->
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 hover:border-sky-200 transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-md font-bold text-slate-800 leading-tight">Kelompok Studi Pasar Modal</h3>
+                        <span class="text-xs font-semibold text-slate-500 bg-white px-2 py-1 rounded border border-slate-200">2023 - 2024</span>
+                    </div>
+                    <p class="text-sky-600 font-medium text-sm mb-4">Sekretaris Umum</p>
+                    <ul class="list-disc list-outside ml-4 text-slate-600 space-y-2 text-sm">
+                        <li>Mengatur pertemuan, menyusun surat-menyurat resmi, termasuk keberhasilan menjadi jembatan kegiatan kunjungan industri ke perusahaan Tbk. dengan jumlah peserta lebih dari 100 orang.</li>
+                        <li>Mengelola dan mengarsipkan dokumen penting organisasi secara tertib, menyusun laporan serta mendukung kelancaran program kerja melalui administrasi yang efektif dan terstruktur.</li>
+                    </ul>
+                </div>
+
+                <!-- Org 2 -->
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 hover:border-sky-200 transition">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-md font-bold text-slate-800 leading-tight">Keluarga Mahasiswa Sumenep Yogyakarta</h3>
+                        <span class="text-xs font-semibold text-slate-500 bg-white px-2 py-1 rounded border border-slate-200">2023 - 2024</span>
+                    </div>
+                    <p class="text-sky-600 font-medium text-sm mb-4">Sekretaris II</p>
+                    <ul class="list-disc list-outside ml-4 text-slate-600 space-y-2 text-sm">
+                        <li>Mengelola database seluruh mahasiswa aktif terutama sarjana yang ada di Yogyakarta.</li>
+                        <li>Mengelola dan mengarsipkan dokumen penting organisasi secara tertib, menyusun laporan serta mendukung kelancaran program kerja melalui administrasi yang efektif dan terstruktur.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- KEMAMPUAN -->
+        <section class="bg-white rounded-2xl p-8 border border-slate-100 card-hover shadow-sm">
+            <h2 class="text-xl font-bold text-slate-800 mb-6 flex items-center gap-3 border-b border-sky-50 pb-3">
+                <div class="w-8 h-8 rounded-full bg-sky-100 flex items-center justify-center text-sky-600">
+                    <i class="fas fa-star"></i>
+                </div>
+                Kemampuan
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div>
+                    <h4 class="text-sm font-bold text-slate-400 mb-3 uppercase tracking-wider flex items-center gap-2"><i class="fas fa-cog"></i> Teknis</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 text-sm bg-sky-50 text-sky-700 font-medium rounded-lg">Administrasi</span>
+                        <span class="px-3 py-1.5 text-sm bg-sky-50 text-sky-700 font-medium rounded-lg">Mengetik</span>
+                        <span class="px-3 py-1.5 text-sm bg-sky-50 text-sky-700 font-medium rounded-lg">Input Data</span>
+                        <span class="px-3 py-1.5 text-sm bg-sky-50 text-sky-700 font-medium rounded-lg">Pengelolaan Jadwal</span>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold text-slate-400 mb-3 uppercase tracking-wider flex items-center gap-2"><i class="fas fa-user-check"></i> Personal</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 text-sm bg-slate-100 text-slate-700 font-medium rounded-lg">Teliti</span>
+                        <span class="px-3 py-1.5 text-sm bg-slate-100 text-slate-700 font-medium rounded-lg">Adaptif</span>
+                        <span class="px-3 py-1.5 text-sm bg-slate-100 text-slate-700 font-medium rounded-lg">Manajemen Waktu</span>
+                        <span class="px-3 py-1.5 text-sm bg-slate-100 text-slate-700 font-medium rounded-lg">Kerja Sama Tim</span>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold text-slate-400 mb-3 uppercase tracking-wider flex items-center gap-2"><i class="fas fa-laptop-code"></i> Software</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1.5 text-sm border border-slate-200 text-slate-700 font-medium rounded-lg"><i class="fas fa-file-word text-blue-600 mr-1"></i> Word</span>
+                        <span class="px-3 py-1.5 text-sm border border-slate-200 text-slate-700 font-medium rounded-lg"><i class="fas fa-file-excel text-green-600 mr-1"></i> Excel</span>
+                        <span class="px-3 py-1.5 text-sm border border-slate-200 text-slate-700 font-medium rounded-lg"><i class="fas fa-file-powerpoint text-orange-500 mr-1"></i> PowerPoint</span>
+                        <span class="px-3 py-1.5 text-sm border border-slate-200 text-slate-700 font-medium rounded-lg"><i class="fas fa-table text-green-500 mr-1"></i> Spreadsheet</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BOOTCAMP / SERTIFIKASI -->
+        <section class="bg-sky-700 rounded-2xl p-8 text-white relative overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <!-- Hiasan Background -->
+            <div class="absolute top-0 right-0 opacity-10 pointer-events-none">
+                <i class="fas fa-certificate text-9xl transform translate-x-4 -translate-y-4"></i>
+            </div>
+            
+            <div class="relative z-10">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-6">
+                    <div>
+                        <h2 class="text-2xl font-bold mb-2 flex items-center gap-3">
+                            Bootcamp Excel Karirnex
+                        </h2>
+                        <p class="text-sky-200 font-medium text-sm">14 - 23 Oktober 2025</p>
+                    </div>
+                    <div class="mt-4 md:mt-0 inline-block bg-yellow-400 text-yellow-900 font-bold px-4 py-2 rounded-full text-sm shadow-sm">
+                        <i class="fas fa-star mr-1"></i> Expert Predicate
+                    </div>
+                </div>
+                
+                <h4 class="text-sm font-semibold text-sky-200 mb-3 uppercase tracking-wider">Skill yang Dikuasai:</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 text-sm bg-sky-800 border border-sky-600 rounded-lg">Sum, If, Average</span>
+                    <span class="px-3 py-1 text-sm bg-sky-800 border border-sky-600 rounded-lg">Vlookup, Index Match</span>
+                    <span class="px-3 py-1 text-sm bg-sky-800 border border-sky-600 rounded-lg">Concat, Round, Count</span>
+                    <span class="px-3 py-1 text-sm bg-sky-800 border border-sky-600 rounded-lg">Pivot, Pivot Chart</span>
+                    <span class="px-3 py-1 text-sm bg-sky-800 border border-sky-600 rounded-lg">Data Function</span>
+                    <span class="px-3 py-1 text-sm bg-sky-800 border border-sky-600 rounded-lg">Slicer, Data Validation</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 text-slate-500 text-sm font-medium border-t border-slate-200 mt-8">
+        <p>&copy; 2025 Nailah Maghfirah. Dibuat sebagai profil profesional.</p>
+    </footer>
+
+</body>
+</html>
